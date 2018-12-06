@@ -1,4 +1,4 @@
-package hello;
+package hello.service;
 
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,3 +11,4 @@ public class HelloController {
         return "Greetings from Spring Boot!!!!!!";
     }
 }
+
