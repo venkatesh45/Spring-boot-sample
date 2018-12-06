@@ -1,5 +1,6 @@
 package hello.io;
 
+
 public class Student {
 	private int rid;
 	private String name;

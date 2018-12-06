@@ -2,9 +2,12 @@ package hello.Impl;
 
 import java.util.List;
 
+import org.springframework.stereotype.Service;
+
 import hello.DAO.StudentDAO;
 import hello.io.Student;
 
+@Service
 public class StudentDAOImpl implements StudentDAO{
 
 	@Override
@@ -20,7 +23,7 @@ public class StudentDAOImpl implements StudentDAO{
 	}
 
 	@Override
-	public Student readStudent(Student s) {
+	public Student readStudent(int sid) {
 		// TODO Auto-generated method stub
 		return null;
 	}

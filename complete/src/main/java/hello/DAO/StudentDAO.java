@@ -6,7 +6,7 @@ import java.util.*;
 public interface StudentDAO {
 	public void createStudent(Student s);
 	public List<Student> readStudent();
-	public Student readStudent(Student s);
 	public int updateStudent(Student s);
 	public int deleteStudent(Student s);
+	Student readStudent(int sid);
 }
